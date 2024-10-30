@@ -1,6 +1,6 @@
 import requests
 
-apikey = "7a5b4d3b55d36e94aca154851550e478"
+apikey = ""
 
 def hae_koordinaatit(kaupunki,apikey):
     lokaatio = f"http://api.openweathermap.org/geo/1.0/direct?q={kaupunki}&limit=5&appid={apikey}"
